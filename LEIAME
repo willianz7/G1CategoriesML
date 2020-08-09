@@ -19,6 +19,6 @@ e instale os requeriments.txt, abra o diretório do projeto e execute:
 #source my_env/bin/activate
 #alias python=python3
 #python manage.py runserver localhost:8000
-#abra o firefox e digite localhost:8000/MachineLearning
+#abra o firefox e digite localhost:8000/G1NoticiasML
 
 
