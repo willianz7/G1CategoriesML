@@ -1,0 +1,24 @@
+Este projeto tem a finalidade de Aplicar os Conceitos iniciais de Machine Learning.
+
+O app g1categoriesml busca duas categorias de noticias do g1.globo.com: "política" e "ciência e Saúde" total de 121 noticias encontradas dentre 1000 notícias pesquisadas em 31/07/2020. Estas notícias na atualidade gera uma certa dificuldade de categorizar devido a serem categorias bem próximas no cenário de pandemia atual.
+
+Para este treinamento utilizamos as palavras mais frequentes em CountVerotizer e um TFIdf.
+
+Com a base pronta, aplicamos um treinamento de 70% da base e executamos 30% de testes e assim aplicamos os treinamentos usando:
+* NAIVE BAYES,
+* SVM KERNEL LINEAR
+* REGRESSÃO LOGISTÍCA
+
+Em seguida apresentamos as matrizes de confusão para cada um dos modelos em TFIdf e CountVetorizer.
+Afim de aplicar conceitos aprendidos em Processamento de Linguagem natural aplicamos também um modelo não supervisionado, sugerindo as 5 palavras mais frequentes dem cada notícia, sugerindo uma abordagem de tópicos, apartir destas 5 palavaras.
+
+Para executar este app, baixe-o no github:
+
+e instale os requeriments.txt, abra o diretório do projeto e execute:
+
+#source my_env/bin/activate
+#alias python=python3
+#python manage.py runserver localhost:8000
+#abra o firefox e digite localhost:8000/MachineLearning
+
+
