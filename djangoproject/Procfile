@@ -1,0 +1,2 @@
+web: gunicorn g1categoriesml.wsgi
+
